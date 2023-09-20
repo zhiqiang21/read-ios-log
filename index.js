@@ -8,8 +8,8 @@ const path = require('path');
 const matchLogRegx = /(?<=\'msc-----printObjectKey---\',).*/g
 // 格式化对象key 替换key中的空格和多余的 '
 const replaceKey = /(\'|\s)/g;
-const fileSource = argv.p;
-const distPath = path.resolve(__dirname, argv.w);
+const fileSource = String(argv.p);
+const distPath = String(path.resolve(__dirname, argv.w));
 // const fileSource = '/Users/houzhiqiang04/Desktop/error.log'
 // const distPath = path.resolve(__dirname, './')
 

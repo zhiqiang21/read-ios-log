@@ -1,6 +1,6 @@
 {
   "name": "read-ios-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "解析ios控制台打印的log字符串",
   "main": "index.js",
   "scripts": {
